@@ -1,0 +1,30 @@
+HTTP is one of the most Popular protocals for Connecting one or more computers.
+
+What are Web servers?
+    - Apiece of software designed to accept incoming web requests.
+    e.g wen we go to http://www.google.com we get the following
+    GET /HTTP/1.1
+    Host: www.google.com
+
+ GET request: 
+ GET - Verb tells the server wat we want
+ / - path
+ 1.1 - Protocal 
+
+ This is wat all the server sees and interpreat.
+
+HTTP Verbs
+Verb        Meaning                              Example
+GET         Retrieve something                   GET/item/1 
+POST        Retrieve data and use it             POST/item  
+PUT         Make sure something else is there    PUT/item
+DELETE      Remove something                     DELETE/item/1
+
+REST Principles.
+REST API is just a way of thinking how a web server responds to ure requests
+it doesnt respond with just data
+it responds with resources.
+
+Another Key feature of REST is Stateless
+This means one request can not depend on another requests
+the server only knows about hte current request and not an previous requests.
